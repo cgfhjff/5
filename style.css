@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed";
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+.card{
+    display: grid;
+    justify-content: center; 
+    margin-top: 55px;
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: repeat(2, 245px);
+    gap: 30px;
+    
+    
+}
+.ca1{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+}
+.ca1 svg {
+    position: absolute;
+    top: 0;
+    left: 300px;
+
+    opacity: .5;
+}
+
+
+.ca2{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 5px;
+    padding: 20px;
+}
+.ca3{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    grid-row-start: 0;
+    grid-row-end: span 2;
+    padding: 20px;
+}
+.ca4{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 20px;
+}
+.ca5{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    padding: 20px;
+}
+.persen{
+    display: flex;
+}
+.persen .img img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    z-index: 10;
+   
+}
+.persen .text h2{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    z-index: 10;
+    margin-left: 15px;
+}
+.persen .text p{
+    color: hsl(0, 0%, 81%);
+    font-size: 12px;
+    text-align: center;
+    margin-left: 15px;
+    z-index: 10;
+}
+.ca3 .persen .text h2{
+    color: rgb(84, 83, 83);
+}
+.ca4 .persen .text h2{
+    color: rgb(84, 83, 83);
+}
+.na h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 700;
+  
+}
+.na p {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 12.5px;
+    color: hsl(0, 0%, 81%);
+    z-index: 10;
+}
+.ca3 .na h2{
+    color: rgb(84, 83, 83);
+}
+.ca4 .na h2{
+    color: rgb(84, 83, 83);
+}
